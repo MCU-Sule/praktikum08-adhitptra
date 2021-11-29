@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="author" content="Adhitya PPT 2172024">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 4</title>
+</head>
+<style>
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 360px;
+        height: 60px;
+    }
+    tr {
+        border: 1px solid black;
+        width: 360px;
+        height: 60px;
+    }
+    td {
+        border: 1px solid black;
+        width: 360px;
+        height: 60px;
+    }
+
+</style>
+<body>
+    <script>
+        document.write("<table>");
+            let baris = prompt("jumlah baris:")
+            let kolom = prompt("jumlah kolom:")
+            let a = prompt("Warna 1 (Hexadecimal):")
+            let b = prompt("Warna 2 (Hexadecimal):")
+            let c = 0
+
+            for(i=1; i<baris; i++) {
+                document.write("<tr id='warna'>");
+            for(u=1; u<=kolom; u++) {
+                c++
+                document.write("<td id='warna'>"+ c + "</td>")
+            }    
+            document.write("</tr>")
+            }
+
+            if (i%2==0) {
+                box.style.backgroundColor='black'
+            }
+            else {
+                box.style.backgroundColor='white'
+            }
+              
+            document.write("</table>")
+    </script>
+</body>
+</html>
